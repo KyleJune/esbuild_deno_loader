@@ -94,9 +94,10 @@ stack, the `namespace` of the loader stack is the scheme of the URL, and the
 The `denoLoaderPlugin` registers loaders that are hit in the secondary resolve
 pass for the schemes `http`, `https`, `data`, and `file`.
 
-The examples directory contains an example for how to integrate with custom
+The examples directory contains examples for how to integrate with custom
 plugins. The `examples/custom_scheme_plugin.ts` example shows how to add a
-plugin that handles a custom scheme.
+plugin that handles a custom scheme. The `examples/custom_extension_plugin.ts`
+example shows how to add a plugin with it's own resolver and loader.
 
 ## Permissions
 
